@@ -1,0 +1,25 @@
+import React from 'react'
+import gsap from 'gsap';
+import { ScrollTrigger, SplitText } from 'gsap/all';
+import Hero from './components/Hero'
+import Cocktails from './components/Cocktails';
+import About from './components/About';
+import Art from './components/Art';
+import Contact from './components/contact';
+
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
+
+const App = () => {
+  return (
+    <main> 
+      <Hero />
+      <Cocktails />
+      <About />
+      <Art />
+      <Contact />
+    </main>
+  )
+}
+
+export default App
