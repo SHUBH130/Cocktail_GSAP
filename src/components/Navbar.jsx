@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between pt-5 px-50'>
       <a href="#home" className='flex items-center gap-2'>
-        <img src="public/logo.jpg" alt="logo" />
+        <img src="/Mojito-Assets-main/images/logo.png" alt="logo" />
         <p>Velvet Pour</p>
       </a>
 
