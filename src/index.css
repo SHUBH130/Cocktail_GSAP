@@ -85,7 +85,7 @@ body {
     }
 
     .noisy {
-        @apply absolute inset-0 size-full bg-[url("Mojito-Assets-main/images/noise.png")];
+        @apply absolute inset-0 size-full bg-[url("cocktail-project/Mojito-Assets-main/images/noise.png")];
     }
 
     #hero {
